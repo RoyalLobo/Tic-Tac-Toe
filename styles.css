@@ -1,0 +1,36 @@
+.board {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 302px;
+}
+
+.row > div {
+  height: 100px;
+  width: 100px;
+}
+
+.row > div:nth-child(2) {
+  border-left: 1px solid red;
+  border-right: 1px solid purple;
+  cursor: pointer;
+}
+
+.top,
+.center {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
